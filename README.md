@@ -1,2 +1,0 @@
-# Apple
-Apple Project Begin!
