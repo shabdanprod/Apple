@@ -1,7 +1,7 @@
 body{
     font-size: 16px;
     font-weight: 300;
-    font-family: "SF UI Text";
+    font-family: "SF UI Display";
     background-color: #fff;
     color: white;
     -webkit-font-smoothing: antialiased;
@@ -9,7 +9,7 @@ body{
     margin-top: 70px;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: "SF UI Text";
+    font-family: "SF UI Display";
     font-weight: 300;
     color: white;
 }
