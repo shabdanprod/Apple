@@ -2,7 +2,7 @@ body{
     font-size: 16px;
     font-weight: 300;
     font-family: "SF UI Display";
-    background-color: #fff;
+    background-color: #A3AAAE;
     color: white;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -33,4 +33,28 @@ p{
 }
 .nav-item .active{
     background: #ff7878;
+}
+
+#headwrap {
+    background: url("../img/headerwrap1.jpg") no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#headwrap h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#headwrap h4 {
+    color: black;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 400px;
 }
