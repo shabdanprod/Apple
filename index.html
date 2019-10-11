@@ -1,10 +1,13 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Apple Store</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -20,99 +23,104 @@
         <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="NavBar/Mac.html">Mac</a></li>
-                <li class="nav-item"><a class="nav-link" href="NavBar/iPad.html">iPad</a></li>
-                <li class="nav-item"><a class="nav-link" href="NavBar/iPhone.html">iPhone</a></li>
-                <li class="nav-item"><a class="nav-link" href="NavBar/Watch.html">Watch</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Models</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Accessories</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Service</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-search"></i></a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<!-- section 4-->
-<a href="tovary.html">next</a>
-<section id="section4">
-       <div class="container">
-           <h4>наши услуги</h4><br><br>
-           <div class="row centered">
-               <div class="col-lg-3">
-                   <i class="fa fa-truck"></i>
-                   <p>доставка</p>
-               </div>
-               <div class="col-lg-3">
-                   <i class="fa fa-handshake"></i>
-                   <p>гарантия</p>
-               </div>
-               <div class="col-lg-3">
-                   <i class="fa fa-wrench"></i>
-                   <p>сервис</p>
-               </div>
-               <div class="col-lg-3">
-                   <i class="fa fa-dollar-sign"></i>
-                   <p>самые низские цены</p>
-               </div>
-           </div>
-       </div>
-
-</section>
-<br><br>
-
-<!--section 4 end-->
-<!--section 5-->
-<section id="section5">
-    <div class="container">
-        <h4>About</h4><br><br>
-            <div class="col-lg-12">
-                <div class="row centered">
-                    <div class="col-lg-4">
-                        <h4>Эргешов Шабданбек</h4>
-                        <img src="img/pic2.jpg" alt="">
-                        <p></p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h4>Чолпонбай уулу Бекназар</h4>
-                        <img src="img/pic3.jpg" alt="">
-                        <p></p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h4>Шакиров Айдар</h4>
-                        <img src="img/pic4.jpg" alt="">
-                        <p></p><br><br>
-                    </div>
-                </div>
-
-            </div>
+<!--section carousel-->
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <!--    Indicators-->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <!--    slideshow-->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/headerwrap1.jpg" alt="ip" width="1100" height="500">
         </div>
-
-</section>
-<footer id="footer">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-lg-12">
-                <a href="#"><i class="fab fa-twitch"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-dribbble"></i></a>
-            </div>
+        <div class="carousel-item">
+            <img src="img/headerwrap2.jpg" alt="iph" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+            <img src="img/headerwrap3.jpg" alt="ipho" width="1100" height="500">
         </div>
     </div>
-</footer>
-<div id="copyrights">
-    <div class="container">
-        <p>
-            &copy; Copyrights <strong>Spot</strong>. All Rights Reserved
-        </p>
-    </div>
+    <!--    Left & right-->
+    <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
 </div>
+<!--section car end-->
+
+<section id="section2">
+    <div class="container w">
+        <h1>Models</h1>
+        <div class="row centered">
+            <div class="col-lg-3">
+                <img src="img/ip-77.jpg" alt="">
+                <h4>iPhone 7</h4>
+            </div>
+            <div class="col-lg-3">
+                <img src="img/ip-88.jpg" alt="">
+                <h4>iPhone 8</h4>
+            </div>
+            <div class="col-lg-3">
+                <img src="img/ip-xx.jpg" alt="">
+                <h4>iPhone X</h4>
+            </div>
+            <div class="col-lg-3">
+                <img src="img/ip-111.jpg" alt="">
+                <h4>iPhone 11</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--section 3: Accesories-->
+<section id="section3">
+    <div class="container w">
+        <h1>Accessories</h1>
+        <div class="row centered">
+            <div class="col-lg-2">
+                <img src="img/ip-77.jpg" alt="">
+                <h4>Headphones</h4>
+            </div>
+            <div class="col-lg-2">
+                <img src="img/ip-88.jpg" alt="">
+                <h4>Cases</h4>
+            </div>
+            <div class="col-lg-2">
+                <img src="img/ip-xx.jpg" alt="">
+                <h4>Adapters</h4>
+            </div>
+            <div class="col-lg-2">
+                <img src="img/ip-111.jpg" alt="">
+                <h4>Cables</h4>
+            </div>
+            <div class="col-lg-2">
+                <img src="img/ip-111.jpg" alt="">
+                <h4>Charges</h4>
+            </div>
+            <div class="col-lg-2">
+                <img src="img/ip-111.jpg" alt="">
+                <h4>Docks</h4>
+            </div>
+        </div>
+    </div>
+</section>
 
 
-
-
-
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
