@@ -241,3 +241,7 @@ p{
 .navbar{
     background-color: rgba(21, 21, 21, 0.76) !important;
 }
+
+#section2 a {
+    color: white;
+}
