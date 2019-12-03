@@ -313,7 +313,6 @@ p{
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
-    transition-timing-function: cubic-bezier(0.5, 0.5, 0, 0);
 
 
 }
