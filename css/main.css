@@ -309,7 +309,7 @@ p{
 }
 
 #section2 .col-lg-3{
-    -webkit-transition: all 100s ease;
+    -webkit-transition: all 15s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
