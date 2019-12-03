@@ -325,3 +325,21 @@ p{
 
 
 }
+
+#section3 .col-lg-2{
+    -webkit-transition: all 100s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    transition-timing-function: cubic-bezier(0.5, 0.5, 0, 0);
+
+
+}
+#section3 .col-lg-2:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    animation-direction: alternate;
+
+
+}
