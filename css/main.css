@@ -245,3 +245,14 @@ p{
 #section2 a {
     color: white;
 }
+#Inthebox{
+    background-color: white;
+}
+
+#Inthebox h5 {
+    color: #151515;
+}
+
+#Inthebox .container {
+    background-color: #fafafa;
+}
